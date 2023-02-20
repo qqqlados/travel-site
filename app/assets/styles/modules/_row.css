@@ -1,6 +1,6 @@
 .row {
 
-	@mixin clearfix;
+	@mixin clearfix {};
 
 	&--gutters {
 		margin-right: -65px;
@@ -20,7 +20,7 @@
 		&--gutters-large {
 			margin-right: 100px;
 		}
-		
+
 		&--gutters-large > div {
 			padding-right: 100px;
 		}
